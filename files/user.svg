@@ -1,0 +1,19 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="user">
+<circle id="Ellipse 1" cx="25" cy="25" r="25" fill="black"/>
+<g id="Vector" filter="url(#filter0_d_23_21)">
+<path d="M28.75 12H21.25V14.5H18.75V22H21.25V14.5H28.75V12ZM28.75 22H21.25V24.5H28.75V22ZM28.75 14.5H31.25V22H28.75V14.5ZM15 29.5H17.5V27H32.5V29.5H17.5V34.5H32.5V29.5H35V37H15V29.5Z" fill="#BB0233"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_23_21" x="15" y="12" width="20" height="27" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.323385 0 0 0 0 0 0 0 0 0 0.0856534 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_23_21"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_23_21" result="shape"/>
+</filter>
+</defs>
+</svg>

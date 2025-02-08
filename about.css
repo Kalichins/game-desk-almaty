@@ -1,0 +1,85 @@
+body{
+    font-family: 'InkyThinPixels';
+    margin: 0;
+    padding: 0;
+    background: url('files/bg.png') fixed;
+    background-size: cover;
+}
+
+
+.header{
+    display: flex;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo{  
+    margin-right: 172px;
+}
+
+.logo img{
+    max-width: 100%;
+    height: 90px;
+}
+
+.menu{
+    margin-left: 172px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.icns{
+    margin-left: 38px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.icns img{   
+    margin: 20px;
+    max-width: 100%;
+    height: 60px;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    margin-left: 80px;
+}
+
+.about-text{
+    color: white;
+    font-size: 24px;
+    margin-left: 80px;
+}
+
+.about-text1{
+    color: white;
+    font-size: 32px;
+    margin-left: 80px;
+}
+
+@font-face {
+    font-family: 'InkyThinPixels';
+    src: url(font/ljk_Inky-Thin-Pixels.otf) format(opentype);
+    }

@@ -1,0 +1,308 @@
+body{
+    font-family: 'InkyThinPixels';
+    margin: 0;
+    padding: 0;
+    background: url('files/bg.png') fixed;
+    background-size: cover; 
+}
+
+
+.header{
+    display: flex;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo{  
+    margin-right: 172px;
+}
+
+.logo img{
+    max-width: 100%;
+    height: 90px;
+}
+
+.menu{
+    margin-left: 172px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.icns{
+    margin-left: 38px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.icns img{   
+    margin: 20px;
+    max-width: 100%;
+    height: 60px;
+}
+
+.slider {
+    margin: 0px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.mySwiper {
+    width: 100%;
+    height: 600px; /* Высота слайдера */
+    position: relative;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25);
+}
+
+.mySwiper .swiper-slide img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Стрелки навигации */
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+    color: white;
+}
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px; /* Расположить пагинацию внизу */
+    left: 50%;
+    transform: translateX(-50%); /* Центрировать */
+    z-index: 10;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #3d3d3d !important; /* Белый цвет для неактивных кружков */
+    opacity: 0.6; /* Прозрачность для неактивных */
+    border-radius: 50%; /* Сделать круглыми */
+    margin: 0 5px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important; /* Цвет активного кружка */
+    opacity: 1 !important; /* Без прозрачности для активного */
+}
+
+
+.wtf p{
+    color: white;
+    margin-left: 80px;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+
+.product-slider {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.product-wrapper {
+    display: flex;
+    justify-content: space-between; /* Пространство между блоками */
+}
+
+.product {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    y: 4px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25);
+}
+
+.product p {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Расстояние от краев (отступы) */
+.product-wrapper > *:first-child {
+    margin-left: 80px; /* Отступ слева */
+}
+
+.product-wrapper > *:last-child {
+    margin-right: 80px; /* Отступ справа */
+}
+
+/* Промежутки между блоками */
+.product-wrapper > * {
+    margin-right: 51px; /* Расстояние между блоками */
+}
+
+
+
+.popular-slider {
+    width: 100%;
+    margin: 40px auto;
+    padding: 0px 0;
+}
+
+.popular-wrapper {
+    display: flex;
+    justify-content: space-between; /* Пространство между блоками */
+}
+
+.popular {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular img {
+    max-width: 100%;;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    y: 4px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.25);
+}
+
+.popular p {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+}
+
+/* Расстояние от краев (отступы) */
+.popular-wrapper > *:first-child {
+    margin-left: 80px; /* Отступ слева */
+}
+
+.popular-wrapper > *:last-child {
+    margin-right: 80px; /* Отступ справа */
+}
+
+/* Промежутки между блоками */
+.popular-wrapper > * {
+    margin-right: 51px; /* Расстояние между блоками */
+}
+
+
+h1{
+    margin-left: 80px;
+    font-weight: normal;
+    color: white;
+    font-size: 50px;
+}
+
+
+h2{
+    font-size: 38px;
+    color: white;
+    margin-left: 80px;
+    font-weight: normal;
+}
+
+
+.text-maps{
+    font-size: 24px;
+    color: white;
+    margin-left: 80px;
+    font-weight: normal;
+}
+
+.map{
+    display: flex;
+}
+
+
+
+
+
+.fotter{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text a{
+    font-size: 32px;
+    margin-left: 80px;
+}
+
+.contact-info p{
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.contact-info a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+
+
+@font-face {
+    font-family: 'InkyThinPixels';
+    src: url(font/ljk_Inky-Thin-Pixels.otf) format(opentype);
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .menu a {
+        font-size: 18px;
+    }
+}
+
