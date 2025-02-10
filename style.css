@@ -17,10 +17,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     width: 100%;
-    padding: 10px;
+    padding: 10px 20px;
+    flex-wrap: wrap;
 }
 
 .logo{  
@@ -40,6 +41,8 @@ body{
     display: flex;
     gap: 50px;
     list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu a{
@@ -291,20 +294,39 @@ h2{
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
-        padding: 10px;
+        text-align: center;
     }
 
     .menu ul {
         flex-direction: column;
+        gap: 10px;
+        padding: 0;
     }
 
     .logo img {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
 
     .menu a {
         font-size: 18px;
+    }
+
+    .mySwiper {
+        height: 300px;
+    }
+
+    .wtf p{
+        font-size: 30px;
+    }
+
+    .product, .popular {
+        max-width: 90%;
+    }
+
+    .fotter {
+        height: auto;
+        padding: 20px;
     }
 }
 
