@@ -10,13 +10,6 @@
 <body>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const savedCategory = localStorage.getItem("selectedCategory");
-            if (savedCategory) {
-                document.getElementById("dropdownBtn").textContent = savedCategory;
-            }
-        });
-
         function toggleDropdown() {
             const menu = document.getElementById("dropdownMenu");
             menu.style.display = menu.style.display === "block" ? "none" : "block";
