@@ -23,7 +23,7 @@ body{
 }
 
 .logo{  
-    margin-right: 172px;
+    margin-right: 130px;
 }
 
 .logo img{
@@ -32,12 +32,12 @@ body{
 }
 
 .menu{
-    margin-left: 172px;
+    margin-left: 130px;
 }
 
 .menu ul{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     list-style: none;
 }
 
@@ -48,8 +48,8 @@ body{
 }
 
 .icns{
-    margin-left: 38px;
-    margin-right: 80px;
+    margin-left: 0;
+    margin-right: 150px;
     display: flex;
     align-items: center;
 }

@@ -23,7 +23,7 @@ body{
 }
 
 .logo{  
-    margin-right: 172px;
+    margin-right: 130px;
 }
 
 .logo img{
@@ -32,12 +32,12 @@ body{
 }
 
 .menu{
-    margin-left: 172px;
+    margin-left: 130px;
 }
 
 .menu ul{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     list-style: none;
 }
 
@@ -48,8 +48,8 @@ body{
 }
 
 .icns{
-    margin-left: 38px;
-    margin-right: 80px;
+    margin-left: 0;
+    margin-right: 150px;
     display: flex;
     align-items: center;
 }
@@ -62,31 +62,49 @@ body{
 
 
 .one-text p{
-    margin-left: 950px;
-    margin-top: 30px;
+    margin-left: 850px;
+    margin-top: 50px;
     position: absolute;
     font-size: 36px;
     color: #ffffff;
 }
 
 .two-text p{
-    margin-left: 950px;
-    margin-top: 80px;
+    margin-left: 850px;
+    margin-top: 100px;
     position: absolute;
     font-size: 22px;
     color: #ffffff;
 }
 
 .three-text p{
-    margin-left: 950px;
+    margin-left: 850px;
     margin-top: 220px;
     position: absolute;
     font-size: 36px;
     color: #ffffff;
 }
 
+.four-text{
+    margin-left: 850px;
+    margin-top: 520px;
+    position: absolute;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.five-text{
+    margin-left: 850px;
+    margin-top: 580px;
+    position: absolute;
+    font-weight: lighter;
+    font-size: 24px;
+    color: #ffffff;
+}
+
 .button{
-    width: 505px;
+    width: 480px;
     position: absolute;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     background-color: rgba(213, 0, 56, 0.96);
@@ -94,7 +112,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 950px;
+    margin-left: 850px;
     margin-top: 400px;
     border-radius: 5px;
     padding: 6px;
@@ -114,26 +132,21 @@ body{
 }
 
 .item-cart{
-    border-radius: 5px;
     display: flex;
     align-items: center;
-    background-color: rgba(142, 1, 38, 0.80);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
-    width: 847px;
-    height: 554px;
-    margin-left: 80px;
-    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
     justify-content: space-between;
 }
 
 .image img{
-    width: 583px;
-    height: 514px;
+    width: auto;
+    height: 600px;
     margin-left: 140px;
-    margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
 }
-
 
 @font-face {
     font-family: 'InkyThinPixels';
