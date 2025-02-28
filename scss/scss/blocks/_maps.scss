@@ -1,0 +1,10 @@
+.maps iframe {
+    width: 100%;
+    height: 435px;
+}
+
+@media (max-width: 650px) {
+    .maps iframe {
+      height: 280px;
+    }
+}

@@ -1,0 +1,28 @@
+.about {
+    padding: 20px 0;
+    color: #fff;
+}
+  
+.about__title {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 650px) {
+    .about__title {
+      font-size: 44px;
+      margin-bottom: 16px;
+    }
+}
+  
+.about__text {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+@media (max-width: 650px) {
+    .about__text {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+}

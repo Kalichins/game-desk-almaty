@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url("../../files/background/bg.png");
+    background-attachment: local;
+    font-family: "Pixel";
+}
+
+@media (max-width: 1024px) {
+    body {
+      background-size: contain;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1104px;
+}
+
+@media (max-width: 540px) {
+    .container {
+      max-width: 480px;
+    }
+}
