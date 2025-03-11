@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="геймерские столы, игровые столы, мебель для компьютеров, столы для геймеров, геймерские столы в алматы, игровые столы алматы">
     <title>Game Desk</title>
-    <link rel="icon" type="image/png" href="/files/logo/game-desk-logo.png">
-    <link rel="stylesheet" href="scss/css/main.css">
+    <link rel="icon" type="image/png" href="./files/logo/game-desk-logo.png">
+    <link rel="stylesheet" href="./scss/css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
@@ -16,22 +16,41 @@
         <div class="container">
             <div class="nav-row">
                 <div class="logo">
-                    <img class="logo__img" src="/files/logo/game-desk-logo.png" alt="">
-                    <span class="logo__title">Game Desk</span>
+                    <img class="logo__img" src="./files/logo/game-desk-logo.png" alt="">
                 </div>
-            
-                <ul class="nav-list">
-                    <li class="nav-list__item"><a href="/about.html" class="nav-list__link">О нас</a></li>
-                    <li class="nav-list__item"><a href="/new.html" class="nav-list__link">Новинки</a></li>
-                    <li class="nav-list__item"><a href="/catalog.html" class="nav-list__link">Каталог</a></li>
-                </ul>
+
+                <div class="nav-items">
+                    <ul class="nav-list">
+                        <li class="nav-list__item"><a href="./about.html" class="nav-list__link">О нас</a></li>
+                        <li class="nav-list__item"><a href="./new.html" class="nav-list__link">Новинки</a></li>
+                        <li class="nav-list__item"><a href="./catalog.html" class="nav-list__link">Каталог</a></li>
+                    </ul>
+
+                    <div class="whatsapp-order">
+                        <a href="https://wa.me/77778409637" class="whatsapp-order-title">
+                            Написать на
+                        </a>
+                        <a href="https://wa.me/77778409637" class="whatsapp-order-icons">
+                            <img src="files/icons/whatsapp-icon.png" alt="">
+                        </a>
+                    </div>
+                </div>
 
                 <div class="mobile-nav-btn">
-                    <button class="menu-toggle"><img src="/files/icons/menu.svg" alt=""></button>
+                    <div class="whatsapp-order-mobile">
+                        <a href="https://wa.me/77778409637" class="whatsapp-order-title">
+                            Написать на
+                        </a>
+                        <a href="https://wa.me/77778409637" class="whatsapp-order-icons">
+                            <img src="files/icons/whatsapp-icon-full.png" alt="">
+                        </a>
+                    </div>
+                    <button class="menu-toggle"><img src="./files/icons/menu.svg" alt=""></button>
                     <nav class="menu">
-                        <a href="/about.html">О нас</a>
-                        <a href="/new.html">Новинки</a>
-                        <a href="/catalog.html">Каталог</a>
+                        <a href="./about.html">О нас</a>
+                        <a href="./new.html">Новинки</a>
+                        <a href="./catalog.html">Каталог</a>
+                        <a href="./contacts.html">Контакты</a>
                     </nav>
                 </div>
             </div>
@@ -41,9 +60,9 @@
     <!-- Swiper -->
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="/files/slider/image_2025-02-05_13-32-38.png" alt=""></div>
-        <div class="swiper-slide"><img src="/files/slider/orig.jpeg" alt=""></div>
-        <div class="swiper-slide"><img src="/files/slider/image_2025-02-05_13-33-49.png" alt=""></div>
+        <div class="swiper-slide"><img src="./files/slider/image_2025-02-05_13-32-38.png" alt=""></div>
+        <div class="swiper-slide"><img src="./files/slider/orig.jpeg" alt=""></div>
+        <div class="swiper-slide"><img src="./files/slider/image_2025-02-05_13-33-49.png" alt=""></div>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
@@ -68,27 +87,21 @@
             <h2 class="title-1">Что мы предлогаем?</h2>
             <ul class="projects">
                 <li class="project">
-                    <a href="/catalog-product/category/Geymerskiye-Stoly.html">
-                        <img src="/files/item-cart/Геймерские Столы.png" alt="Project img" class="project__img">
+                    <a href="./catalog-product/category/Geymerskiye-Stoly.html">
+                        <img src="./files/item-cart/Геймерские Столы.png" alt="Project img" class="project__img">
                         <p class="project__title">Геймерские Столы</p>
                     </a>
                 </li>
                 <li class="project">
-                    <a href="/catalog-product/category/Stoly-dlya-Kompyuternykh-Klubov.html">
-                        <img src="/files/item-cart/Столы для Компьютерных Клубов.png" alt="Project img" class="project__img">
+                    <a href="./catalog-product/category/Stoly-dlya-Kompyuternykh-Klubov.html">
+                        <img src="./files/item-cart/Столы для Компьютерных Клубов.png" alt="Project img" class="project__img">
                         <p class="project__title">Столы для Компьютерных Клубов</p>
                     </a>
                 </li>
                 <li class="project">
-                    <a href="/catalog-product/category/Tumby.html">
-                        <img src="/files/item-cart/Тумбы, Полки, Стелажи.png" alt="Project img" class="project__img">
+                    <a href="./catalog-product/category/Tumby.html">
+                        <img src="./files/item-cart/Тумбы, Полки, Стелажи.png" alt="Project img" class="project__img">
                         <p class="project__title">Тумбы, Полки, Стелажи</p>
-                    </a>
-                </li>
-                <li class="project">
-                    <a>
-                        <img src="/files/item-cart/Каркасы для Игровых столов.png" alt="Project img" class="project__img">
-                        <p class="project__title">Каркасы для Игровых столов</p>
                     </a>
                 </li>
             </ul>
@@ -101,26 +114,26 @@
             <h2 class="title-2">Популярное</h2>
             <ul class="projects">
                 <li class="project">
-                    <a href="/catalog-product/desk-model/MaDXRacer ARENA GTS15 CARBON-RED.html">
-                        <img src="/files/item-cart/1popular.png" alt="Project img" class="project__img">
+                    <a href="./catalog-product/desk-model/MaDXRacer ARENA GTS15 CARBON-RED.html">
+                        <img src="./files/item-cart/1popular.png" alt="Project img" class="project__img">
                         <p class="project__title">MaDXRacer ARENA GTS15 CARBON-RED</p>
                     </a>
                 </li>
                 <li class="project">
-                    <a href="/catalog-product/desk-model/gaming-desk/MaDXRacer ARENA GTS15B.html">
-                        <img src="/files/desk-model/MaDXRacer ARENA GTS15B/12345-Монтажная-область-1.png" alt="Project img" class="project__img">
+                    <a href="./catalog-product/desk-model/gaming-desk/MaDXRacer ARENA GTS15B.html">
+                        <img src="./files/desk-model/MaDXRacer ARENA GTS15B/12345-Монтажная-область-1.png" alt="Project img" class="project__img">
                         <p class="project__title">MaDXRacer ARENA GTS15B</p>
                     </a>
                 </li>
                 <li class="project">
-                    <a href="/catalog-product/desk-model/gaming-desk/MaDXRacer GAMING DESK GTT13WHITE-B.html">
-                        <img src="/files/desk-model/MaDXRacer GAMING DESK GTT13WHITE-B/1.png" alt="Project img" class="project__img">
+                    <a href="./catalog-product/desk-model/gaming-desk/MaDXRacer GAMING DESK GTT13WHITE-B.html">
+                        <img src="./files/desk-model/MaDXRacer GAMING DESK GTT13WHITE-B/1.png" alt="Project img" class="project__img">
                         <p class="project__title">MaDXRacer GAMING DESK GTT13WHITE-B</p>
                     </a>
                 </li>   
                 <li class="project">
-                    <a href="/catalog-product/desk-model/gaming-desk/MaDXRacer PILOT GTC12G.html">
-                        <img src="/files/desk-model/MaDXRacer PILOT GTC12G/1.png" alt="Project img" class="project__img">
+                    <a href="./catalog-product/desk-model/gaming-desk/MaDXRacer PILOT GTC12G.html">
+                        <img src="./files/desk-model/MaDXRacer PILOT GTC12G/1.png" alt="Project img" class="project__img">
                         <p class="project__title">MaDXRacer PILOT GTC12G</p>
                     </a>
                 </li>
@@ -143,8 +156,8 @@
                     <ul class="social">
                         <p class="social__title">Социальные сети</p>
                         <li class="social__item">
-                            <a href="https://wa.me/77778409637"><img src="/files/icons/whatsapp-icon.png" alt=""></a>
-                            <a href="https://www.instagram.com/game_desk_almaty?igsh=MTQ3cjFsa2p1a254cg%3D%3D&utm_source=qr"><img src="/files/icons/instagram.png" alt=""></a>
+                            <a href="https://wa.me/77778409637"><img src="./files/icons/whatsapp-icon.png" alt=""></a>
+                            <a href="https://www.instagram.com/game_desk_almaty?igsh=MTQ3cjFsa2p1a254cg%3D%3D&utm_source=qr"><img src="./files/icons/instagram.png" alt=""></a>
                         </li>
                     </ul>
     
@@ -161,8 +174,8 @@
 
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/js/swiper-slider.js"></script>
-    <script src="/js/mobile-menu.js"></script>
+    <script src="./js/swiper-slider.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 
 </body>
 </html>
