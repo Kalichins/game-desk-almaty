@@ -3,7 +3,8 @@
 
     @media (max-width: 650px) {
       display: flex;
-        }
+      align-items: center;
+    }
 }
   
 .menu-toggle {
@@ -22,7 +23,7 @@
     text-align: center;
     z-index: 3;
     position: absolute;
-    top: 105px;
+    top: 86px;
     right: 0;
     width: 100%;
     max-height: 0;
@@ -58,4 +59,25 @@
     @media (min-width: 650px) {
         column-gap: 40px;
     }
+}
+
+.whatsapp-order-mobile {
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    margin: auto;
+    border-radius: 10px;
+    column-gap: 2px;
+
+    background-color: #00D547;
+    
+    a {
+      font-size: 16px;
+      color: white;
+    }
+}
+
+.whatsapp-order-icons img{
+    width: 40px;
+    height: 40px;
 }

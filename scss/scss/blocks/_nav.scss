@@ -1,6 +1,16 @@
 .nav {
-    padding: 25px 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    @media (max-width: 650px) {
+      z-index: 999;
+      padding: 15px;
+      background-image: url("../../../files/background/bg-dark.png");
+      background-attachment: local;
+      background-size: cover;
+      position: sticky;
+      top: 0;
+    }
   }
   
   .nav-row {
@@ -15,9 +25,16 @@
   
   @media (max-width: 650px) {
     .nav-row {
-      -moz-column-gap: 0;
-           column-gap: 0;
+      column-gap: 0;
     }
+  }
+  
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
   }
   
   .logo {
@@ -71,4 +88,23 @@
     color: #fff;
     text-decoration: none;
     font-size: 28px;
+  }
+
+  .whatsapp-order {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    column-gap: 5px;
+
+    background-color: #00D547;
+    
+    a {
+      font-size: 20px;
+      color: white;
+    }
+
+    @media (max-width: 650px) {
+      display: none;
+    }
   }

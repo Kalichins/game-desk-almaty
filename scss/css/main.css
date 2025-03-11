@@ -86,12 +86,23 @@ legend {
 }
 
 @font-face {
-  font-family: "Pixel";
-  src: url("./../../../font/ljk_Inky-Thin-Pixels.otf") format(opentype);
+  font-family: "Inky-Thin-Pixels";
+  src: url("../../font/ljk_Inky-Thin-Pixels.otf") format("opentype");
 }
 .nav {
-  padding: 25px 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 650px) {
+  .nav {
+    z-index: 999;
+    padding: 15px;
+    background-image: url("../../../files/background/bg-dark.png");
+    background-attachment: local;
+    background-size: cover;
+    position: sticky;
+    top: 0;
+  }
 }
 
 .nav-row {
@@ -107,9 +118,18 @@ legend {
 @media (max-width: 650px) {
   .nav-row {
     -moz-column-gap: 0;
-    column-gap: 0;
+         column-gap: 0;
   }
 }
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+
 .logo {
   display: flex;
   text-align: center;
@@ -158,6 +178,25 @@ legend {
   color: #fff;
   text-decoration: none;
   font-size: 28px;
+}
+
+.whatsapp-order {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  background-color: #00D547;
+}
+.whatsapp-order a {
+  font-size: 20px;
+  color: white;
+}
+@media (max-width: 650px) {
+  .whatsapp-order {
+    display: none;
+  }
 }
 
 .about {
@@ -673,7 +712,7 @@ body {
   min-height: 100vh;
   background: url("../../files/background/bg.png");
   background-attachment: local;
-  font-family: "Pixel";
+  font-family: "Inky-Thin-Pixels";
 }
 
 @media (max-width: 1024px) {
@@ -840,6 +879,7 @@ a.button:active {
 @media (max-width: 650px) {
   .mobile-nav-btn {
     display: flex;
+    align-items: center;
   }
 }
 
@@ -859,7 +899,7 @@ a.button:active {
   text-align: center;
   z-index: 3;
   position: absolute;
-  top: 105px;
+  top: 86px;
   right: 0;
   width: 100%;
   max-height: 0;
@@ -897,6 +937,26 @@ a.button:active {
     -moz-column-gap: 40px;
          column-gap: 40px;
   }
+}
+
+.whatsapp-order-mobile {
+  display: flex;
+  align-items: center;
+  padding: 3px 10px;
+  margin: auto;
+  border-radius: 10px;
+  -moz-column-gap: 2px;
+       column-gap: 2px;
+  background-color: #00D547;
+}
+.whatsapp-order-mobile a {
+  font-size: 16px;
+  color: white;
+}
+
+.whatsapp-order-icons img {
+  width: 40px;
+  height: 40px;
 }
 
 .swiper {
